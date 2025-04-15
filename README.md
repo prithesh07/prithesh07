@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="125" src="https://i.pinimg.com/originals/e6/da/c1/e6dac1038095d76596e8b1bd9653f569.gif"  />
+<img align="right" height="125" src="https://raw.githubusercontent.com/prithesh07/prithesh07/main/assets/coding.gif" loop="infinite" />
 
 ###
 
