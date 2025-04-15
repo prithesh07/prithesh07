@@ -2,7 +2,7 @@
 
 ###
 
-<img align="right" height="125" src="https://i.pinimg.com/originals/e6/da/c1/e6dac1038095d76596e8b1bd9653f569.gif" autoplay loop />
+<img align="right" height="125" src="./assets/coder.gif" />
 
 ###
 
