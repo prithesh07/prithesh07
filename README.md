@@ -65,8 +65,6 @@
   </a>
 </div>
 
-###
-
 <img src="https://github.com/prithesh07/prithesh07/blob/output/snake.svg" alt="Snake animation" />
 
 ###
