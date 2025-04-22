@@ -22,19 +22,23 @@ jobs:
       - name: Create dist directory
         run: mkdir -p dist
 
-      - name: Generate snake.svg
+      - name: Generate snake.svg (theme-neutral)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: prithesh07
           outputs: |
             dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+        env:
+          COLOR_BACK: "00000000"
+          COLOR_DOT: "#888888"
+          COLOR_RING: "#5f9ea0"
+          COLOR_SNAKE: "#9370DB"
 
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'dist/snake.svg dist/snake-dark.svg'
-          message: 'Generate snake animation'
+          add: 'dist/snake.svg'
+          message: 'Generate theme-neutral snake animation'
           push: true
           default_author: github_actions
 
